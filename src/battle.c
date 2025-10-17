@@ -107,7 +107,7 @@ printf("%s monte au niveau %d !\n", active->species, active->level);
 
 static void choose_active_supemon(Player *p) {
 if (p->teamCount == 0) return;
-printf("\nChoisissez votre Supémon actif :\n");
+printf("\nChoisissez votre Supemon actif :\n");
 for (int i = 0; i < p->teamCount; ++i) {
 printf("%d) ", i+1); print_supemon_brief(&p->team[i]);
 }
@@ -117,19 +117,19 @@ p->selectedIndex = ch-1;
 
 
 static void switch_supemon(Player *p) {
-if (p->teamCount <= 1) { printf("Vous n'avez pas d'autre Supémon.\n"); return; }
+if (p->teamCount <= 1) { printf("Vous n'avez pas d'autre Supemon.\n"); return; }
 choose_active_supemon(p);
 }
 
 
 void battle(Player *p) {
-if (p->teamCount == 0) { printf("Vous n'avez aucun Supémon pour combattre.\n"); return; }
+if (p->teamCount == 0) { printf("Vous n'avez aucun Supemon pour combattre.\n"); return; }
 Supemon *active = &p->team[p->selectedIndex];
-if (active->hp <= 0) { printf("Votre Supémon actif est K.O., changez-en d'abord.\n"); return; }
+if (active->hp <= 0) { printf("Votre Supemon actif est K.O., changez-en d'abord.\n"); return; }
 
 
 Supemon enemy = random_enemy_same_level(active->level);
-printf("\nUn %s sauvage apparaît !\n", enemy.species);
+printf("\nUn %s sauvage apparait !\n", enemy.species);
 
 
 reset_combat_stats(active);
@@ -139,13 +139,13 @@ reset_combat_stats(&enemy);
 int itemsUsed = 0;
 
 while (active->hp > 0 && enemy.hp > 0) {
-printf("\n--- État ---\n");
-printf("Allié : "); print_supemon_brief(active);
+printf("\n--- Etat ---\n");
+printf("Allie : "); print_supemon_brief(active);
 printf("Ennemi : "); print_supemon_brief(&enemy);
 
 
 printf("\nVos actions :\n");
-printf("1) Attaquer / Move\n2) Changer de Supémon\n3) Utiliser un objet (%d/%d utilisés)\n4) Fuir\n5) Capturer\n", itemsUsed, MAX_ITEMS_PER_BATTLE);
+printf("1) Attaquer / Move\n2) Changer de Supemon\n3) Utiliser un objet (%d/%d utilises)\n4) Fuir\n5) Capturer\n", itemsUsed, MAX_ITEMS_PER_BATTLE);
 int ch = read_int("> ", 1, 5);
 
 
@@ -165,7 +165,7 @@ if (ch == 1) {
 printf("\nChoisissez un move :\n");
 for (int i = 0; i < active->movesCount; ++i) {
 Move mv = active->moves[i];
-if (mv.type == MOVE_DAMAGE) printf("%d) %s (Dégâts base %d)\n", i+1, mv.name, mv.baseDamage);
+if (mv.type == MOVE_DAMAGE) printf("%d) %s (Degats base %d)\n", i+1, mv.name, mv.baseDamage);
 else printf("%d) %s (+%d stat)\n", i+1, mv.name, mv.statAmount);
 }
 int m = read_int("> ", 1, active->movesCount);
@@ -178,14 +178,14 @@ playerSkipped = 1;
 use_item_in_battle(p, active, &itemsUsed);
 } else if (ch == 4) {
 if (attempt_flee(active, &enemy)) { printf("Vous prenez la fuite !\n"); return; }
-else printf("La fuite échoue !\n");
+else printf("La fuite echoue !\n");
 } else if (ch == 5) {
 if (attempt_capture(&enemy)) {
 printf("Vous capturez %s !\n", enemy.species);
 if (p->teamCount < MAX_SUPEMONS) { p->team[p->teamCount++] = enemy; }
-else printf("Votre équipe est pleine, capture perdue…\n");
+else printf("Votre equipe est pleine, capture perdue…\n");
 return;
-} else { printf("Échec de la capture !\n"); }
+} else { printf("Echec de la capture !\n"); }
 }
 } else {
 if (enemy.hp > 0 && active->hp > 0) {
@@ -199,6 +199,6 @@ if (active->hp <= 0 || enemy.hp <= 0) break;
 }
 
 
-if (active->hp <= 0) { printf("\nVotre %s est K.O. ! Défaite…\n", active->species); return; }
+if (active->hp <= 0) { printf("\nVotre %s est K.O. ! Defaite…\n", active->species); return; }
 else if (enemy.hp <= 0) { grant_battle_rewards(p, active, enemy.level); }
 }

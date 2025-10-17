@@ -125,10 +125,10 @@ printf("3) %s - %d Supcoins\n", item_name(ITEM_RARE_CANDY), item_price(ITEM_RARE
 int a = read_int("0) Annuler\n> ", 0, 3);
 if (a == 0) continue;
 ItemType t = (a==1)?ITEM_POTION: (a==2)?ITEM_SUPER_POTION: ITEM_RARE_CANDY;
-int q = read_int("Quantité : ", 1, 1000000);
+int q = read_int("Quantite : ", 1, 1000000);
 int cost = item_price(t) * q;
 if (p->supcoins < cost) printf("Pas assez de Supcoins.\n");
-else { p->supcoins -= cost; add_item(p, t, q); printf("Achat réussi !\n"); }
+else { p->supcoins -= cost; add_item(p, t, q); printf("Achat reussi !\n"); }
 } else if (ch == 2) {
 if (p->itemsCount == 0) { printf("Vous n'avez rien a vendre.\n"); continue; }
 show_items(p);

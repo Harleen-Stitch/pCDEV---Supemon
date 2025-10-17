@@ -65,7 +65,7 @@ if (sscanf(buf, "%d", &value) == 1) {
 value = clampi(value, minv, maxv);
 return value;
 }
-printf("Entrée invalide. Réessaie.\n");
+printf("Entree invalide. Reessaie.\n");
 }
 }
 
@@ -77,6 +77,6 @@ if (prompt) printf("%s", prompt);
 if (!fgets(buf, sizeof(buf), stdin)) return 'n';
 if (buf[0]=='o'||buf[0]=='O') return 'o';
 if (buf[0]=='n'||buf[0]=='N') return 'n';
-printf("Réponds par o/n.\n");
+printf("Reponds par o/n.\n");
 }
 }
