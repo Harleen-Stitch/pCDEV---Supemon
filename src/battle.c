@@ -1,3 +1,4 @@
+//battle.c
 #include "battle.h"
 #include "species.h"
 #include "utils.h"
@@ -11,12 +12,12 @@
 
 #define MAX_SUPEMONS 12
 #define COINS_REWARD_MIN 100
-#define COINS_REWARD_MAX 500
+#define COINS_REWARD_MAX 50
 #define EXP_REWARD_MIN   100
 #define EXP_REWARD_MAX   500
 
 static void print_supemon_brief(const Supemon *s) {
-printf("%s (Niv %d) HP %d/%d | ATQ %d DEF %d EVA %d PREC %d VIT %d\n",
+printf("%-15s (Niv %2d) | HP %3d/%3d | ATQ %3d | DEF %3d | EVA %3d | PREC %3d | VIT %3d\n",
 s->species, s->level, s->hp, s->maxHp, s->attack, s->defense, s->evasion, s->accuracy, s->speed);
 }
 
@@ -199,6 +200,6 @@ if (active->hp <= 0 || enemy.hp <= 0) break;
 }
 
 
-if (active->hp <= 0) { printf("\nVotre %s est K.O. ! Defaite…\n", active->species); return; }
+if (active->hp <= 0) { printf("\nVotre %s est K.O. ! Vous avez perdu.\n", active->species); return; }
 else if (enemy.hp <= 0) { grant_battle_rewards(p, active, enemy.level); }
 }

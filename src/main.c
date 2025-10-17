@@ -11,28 +11,27 @@
 #include "menu.h"
 #include "save.h"
 
-// ⚠️ Ne redéfinis pas MAX_ITEMS ou SAVE_FILENAME ici.
-// Laisse-les dans types.h pour éviter les incohérences.
 
 int main(void)
 {
-    // Pour mieux afficher les accents selon l’OS
-    setlocale(LC_ALL, "");
-
     srand((unsigned int)time(NULL));
 
     Player player;
     memset(&player, 0, sizeof(player));
 
-    printf("===== SUPEMON (CLI) =====\n");
-    printf("1) Nouvelle partie\n2) Charger une partie\n");
-    int ch = read_int("> ", 1, 2);
+    puts("|========= SUPEMON =========|");
+    puts("| 1) Nouvelle partie        |");
+    puts("| 2) Charger une partie     |");
+    puts("| 3) Quitter                |");
+    puts("|___________________________|\n");
+    puts("Que voulez-vous faire ? (Saisissez 1, 2 ou 3)");
+    int ch = read_int("Je choisis :  ", 1, 2);
 
     if (ch == 2) {
         if (load_game(&player, SAVE_FILENAME)) {
-            printf("Partie chargee ! Bienvenue a nouveau, %s.\n", player.name);
+            printf("Bon retour parmis nous, %s.\n", player.name);
         } else {
-            printf("Aucune sauvegarde trouvee. Nouvelle partie.\n");
+            printf("Oups ! Aucune sauvegarde trouvee. Nouvelle partie.\n");
             new_game(&player);
         }
     } else {

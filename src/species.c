@@ -1,4 +1,4 @@
-// species.c
+// supemon.c
 #include "species.h"
 #include "utils.h"
 #include <stdio.h>

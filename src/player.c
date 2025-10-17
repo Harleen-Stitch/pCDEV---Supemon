@@ -13,24 +13,25 @@
 // Supprime les #define MAX_SUPEMONS ... etc. de ce fichier.
 
 static void print_supemon_brief(const Supemon *s) {
-    printf("%s (Niv %d) HP %d/%d | ATQ %d DEF %d EVA %d PREC %d VIT %d\n",
+    printf("%s      (Niv %d)     HP %d/%d   | ATQ %d    | DEF %d    | EVA %d    | PREC %d   | VIT %d\n",
            s->species, s->level, s->hp, s->maxHp, s->attack, s->defense,
            s->evasion, s->accuracy, s->speed);
 }
 
 void new_game(Player *p) {
     memset(p, 0, sizeof(*p));
-    read_line("Entrez votre nom : ", p->name, sizeof(p->name));
+    read_line("\nEntrez votre nom : ", p->name, sizeof(p->name));
 
     // Déclarations AVANT instructions (compatible C90)
     Supemon s1 = make_species_supmander();
     Supemon s2 = make_species_supasaure();
     Supemon s3 = make_species_supirtle();
 
-    printf("\nChoisissez votre Supemon de départ :\n");
-    printf("1) "); print_supemon_brief(&s1);
-    printf("2) "); print_supemon_brief(&s2);
-    printf("3) "); print_supemon_brief(&s3);
+    printf("\n  ======================= Choisissez votre Supemon de depart :========================\n");
+    printf("    1) "); print_supemon_brief(&s1);
+    printf("    2) "); print_supemon_brief(&s2);
+    printf("    3) "); print_supemon_brief(&s3);
+    puts("\n  ======================================================================================\n");
 
     int ch = read_int("> ", 1, 3);
     if (ch == 1) p->team[p->teamCount++] = s1;

@@ -1,3 +1,4 @@
+//shop.c
 #include "items.h"
 #include "utils.h"
 #include <stdio.h>
