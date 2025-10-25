@@ -1,4 +1,4 @@
-Projet de cours, développé en binôme avec un brin d'aide extérieur
+Projet de cours, développé en binôme avec @https://github.com/AnthonySupinfo et un brin d'aide extérieur
 
 Supemon
 1. Introduction
