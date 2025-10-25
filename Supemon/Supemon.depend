@@ -1,0 +1,609 @@
+# depslib dependency file v1.0
+1760929654 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\backup.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"backup.h"
+
+1760932870 c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\backup.h
+	"player.h"
+
+1760926748 c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\player.h
+	"supemon.h"
+	"items.h"
+
+1760914960 c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\supemon.h
+	"cap.h"
+
+1760914960 c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\cap.h
+
+1760914960 c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\items.h
+
+1760932084 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\battle.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<locale.h>
+	<windows.h>
+	"battle.h"
+	"exp_lvl.h"
+	"supemon.h"
+	"player.h"
+	"items.h"
+	"formule.h"
+
+1760914960 c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\battle.h
+	"player.h"
+	"supemon.h"
+	"exp_lvl.h"
+	"items.h"
+
+1760914960 c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\exp_lvl.h
+	"supemon.h"
+
+1760929654 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\cap.c
+	<string.h>
+	"cap.h"
+
+1760929924 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\center.c
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<unistd.h>
+	"player.h"
+	"supemon.h"
+
+1760929654 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\exp_lvl.c
+	<stdio.h>
+	<stdlib.h>
+	"exp_lvl.h"
+	"supemon.h"
+
+1760929924 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\items.c
+	<stdio.h>
+	<string.h>
+	"items.h"
+
+1760930482 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"backup.h"
+	"main.h"
+	"player.h"
+	"ooc.h"
+
+1760919103 c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\main.h
+	<windows.h>
+	<locale.h>
+
+1760929924 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\player.c
+	<stdio.h>
+	<string.h>
+	"player.h"
+
+1760929924 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\shop.c
+	<stdio.h>
+	<string.h>
+	"player.h"
+	"items.h"
+
+1760929924 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\supemon.c
+	<stdio.h>
+	<string.h>
+	"supemon.h"
+
+1760932660 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\ooc.c
+	<stdio.h>
+	"backup.h"
+	"battle.h"
+	"items.h"
+	"player.h"
+	"supemon.h"
+	"shop.h"
+
+1760921278 c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\ooc.h
+	"player.h"
+
+1760922863 c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\shop.h
+	"items.h"
+	"player.h"
+
+1760928419 c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\formule.h
+
+1760929924 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\formule.c
+	<stdlib.h>
+	<stdio.h>
+	"formule.h"
+
+1760933268 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo\supemon\backup.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"backup.h"
+
+1760933268 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo\supemon\backup.h
+	"player.h"
+
+1760933268 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo\supemon\player.h
+	"supemon.h"
+	"items.h"
+
+1760933268 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo\supemon\supemon.h
+	"cap.h"
+
+1760933268 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo\supemon\cap.h
+
+1760933268 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo\supemon\items.h
+
+1760933268 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo\supemon\battle.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<locale.h>
+	<windows.h>
+	"battle.h"
+	"exp_lvl.h"
+	"supemon.h"
+	"player.h"
+	"items.h"
+	"formule.h"
+
+1760933268 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo\supemon\battle.h
+	"player.h"
+	"supemon.h"
+	"exp_lvl.h"
+	"items.h"
+
+1760933268 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo\supemon\exp_lvl.h
+	"supemon.h"
+
+1760933268 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo\supemon\formule.h
+
+1760933268 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo\supemon\cap.c
+	<string.h>
+	"cap.h"
+
+1760933268 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo\supemon\center.c
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<unistd.h>
+	"player.h"
+	"supemon.h"
+
+1760933268 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo\supemon\exp_lvl.c
+	<stdio.h>
+	<stdlib.h>
+	"exp_lvl.h"
+	"supemon.h"
+
+1760933268 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo\supemon\items.c
+	<stdio.h>
+	<string.h>
+	"items.h"
+
+1760933268 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo\supemon\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"backup.h"
+	"main.h"
+	"player.h"
+	"ooc.h"
+
+1760933268 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo\supemon\main.h
+	<windows.h>
+	<locale.h>
+
+1760933268 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo\supemon\ooc.h
+	"player.h"
+
+1760933268 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo\supemon\ooc.c
+	<stdio.h>
+	"backup.h"
+	"battle.h"
+	"items.h"
+	"player.h"
+	"supemon.h"
+	"shop.h"
+
+1760933268 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo\supemon\shop.h
+	"items.h"
+	"player.h"
+
+1760933268 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo\supemon\player.c
+	<stdio.h>
+	<string.h>
+	"player.h"
+
+1760933268 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo\supemon\shop.c
+	<stdio.h>
+	<string.h>
+	"player.h"
+	"items.h"
+
+1760933268 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo\supemon\supemon.c
+	<stdio.h>
+	<string.h>
+	"supemon.h"
+
+1761024823 source:c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\backup.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"backup.h"
+
+1761024823 c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\backup.h
+	"player.h"
+
+1761024823 c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\player.h
+	"supemon.h"
+	"items.h"
+
+1761024823 c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\supemon.h
+	"cap.h"
+
+1761024823 c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\cap.h
+
+1761024823 c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\items.h
+
+1761024823 source:c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\cap.c
+	<string.h>
+	"cap.h"
+
+1761030471 source:c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\center.c
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<unistd.h>
+	"player.h"
+	"supemon.h"
+
+1761037946 source:c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\exp_lvl.c
+	<stdio.h>
+	<stdlib.h>
+	"exp_lvl.h"
+	"supemon.h"
+	"formule.h"
+
+1761036342 c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\exp_lvl.h
+	"supemon.h"
+	"formule.h"
+
+1761029675 source:c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\formule.c
+	<stdlib.h>
+	<stdio.h>
+	"formule.h"
+
+1761024823 c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\formule.h
+
+1761024823 source:c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\items.c
+	<stdio.h>
+	<string.h>
+	"items.h"
+
+1761024823 source:c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"backup.h"
+	"main.h"
+	"player.h"
+	"ooc.h"
+
+1761024823 c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\main.h
+	<windows.h>
+	<locale.h>
+
+1761024823 c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\ooc.h
+	"player.h"
+
+1761037775 source:c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\ooc.c
+	<stdio.h>
+	"backup.h"
+	"battle.h"
+	"center.h"
+	"items.h"
+	"player.h"
+	"supemon.h"
+	"shop.h"
+
+1761024823 c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\battle.h
+	"player.h"
+	"supemon.h"
+	"exp_lvl.h"
+	"items.h"
+
+1761024823 c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\center.h
+	"player.h"
+
+1761024823 c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\shop.h
+	"items.h"
+	"player.h"
+
+1761024823 source:c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\player.c
+	<stdio.h>
+	<string.h>
+	"player.h"
+
+1761024823 source:c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\shop.c
+	<stdio.h>
+	<string.h>
+	"player.h"
+	"items.h"
+
+1761030788 source:c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\supemon.c
+	<stdio.h>
+	<string.h>
+	"supemon.h"
+
+1761037747 source:c:\users\kenza_supinfo\downloads\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\battle.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<locale.h>
+	<windows.h>
+	"battle.h"
+	"exp_lvl.h"
+	"supemon.h"
+	"player.h"
+	"items.h"
+	"formule.h"
+
+1761024823 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\backup.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"backup.h"
+
+1761024823 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\backup.h
+	"player.h"
+
+1761024823 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\player.h
+	"supemon.h"
+	"items.h"
+
+1761024823 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\supemon.h
+	"cap.h"
+
+1761024823 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\cap.h
+
+1761042115 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\items.h
+
+1761046463 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\battle.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<locale.h>
+	<windows.h>
+	"battle.h"
+	"exp_lvl.h"
+	"supemon.h"
+	"player.h"
+	"items.h"
+	"formule.h"
+
+1761024823 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\battle.h
+	"player.h"
+	"supemon.h"
+	"exp_lvl.h"
+	"items.h"
+
+1761045403 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\exp_lvl.h
+	"supemon.h"
+	"formule.h"
+
+1761024823 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\formule.h
+
+1761024823 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\cap.c
+	<string.h>
+	"cap.h"
+
+1761030471 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\center.c
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<unistd.h>
+	"player.h"
+	"supemon.h"
+
+1761046159 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\exp_lvl.c
+	<stdio.h>
+	<stdlib.h>
+	"exp_lvl.h"
+	"supemon.h"
+	"formule.h"
+
+1761029675 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\formule.c
+	<stdlib.h>
+	<stdio.h>
+	"formule.h"
+
+1761024823 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\items.c
+	<stdio.h>
+	<string.h>
+	"items.h"
+
+1761024823 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"backup.h"
+	"main.h"
+	"player.h"
+	"ooc.h"
+
+1761024823 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\main.h
+	<windows.h>
+	<locale.h>
+
+1761024823 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\ooc.h
+	"player.h"
+
+1761044819 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\ooc.c
+	<stdio.h>
+	"backup.h"
+	"battle.h"
+	"center.h"
+	"items.h"
+	"player.h"
+	"supemon.h"
+	"shop.h"
+
+1761024823 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\center.h
+	"player.h"
+
+1761024823 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\shop.h
+	"items.h"
+	"player.h"
+
+1761043716 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\player.c
+	<stdio.h>
+	<string.h>
+	"player.h"
+
+1761042636 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\shop.c
+	<stdio.h>
+	<string.h>
+	"player.h"
+	"items.h"
+
+1761030788 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\supemon.finitopipo_rel\supemon.finitopipo_rel\supemon\supemon.c
+	<stdio.h>
+	<string.h>
+	"supemon.h"
+
+1761230506 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\backup.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"backup.h"
+
+1761230506 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\backup.h
+	"player.h"
+
+1761230506 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\player.h
+	"supemon.h"
+	"items.h"
+
+1761230506 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\supemon.h
+	"cap.h"
+
+1761230506 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\cap.h
+
+1761230506 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\items.h
+
+1761230506 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\battle.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<locale.h>
+	<windows.h>
+	"battle.h"
+	"exp_lvl.h"
+	"supemon.h"
+	"player.h"
+	"items.h"
+	"formule.h"
+
+1761230506 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\battle.h
+	"player.h"
+	"supemon.h"
+	"exp_lvl.h"
+	"items.h"
+
+1761230506 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\exp_lvl.h
+	"supemon.h"
+	"formule.h"
+
+1761230506 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\formule.h
+
+1761230506 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\cap.c
+	<string.h>
+	"cap.h"
+
+1761230506 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\center.c
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<unistd.h>
+	"player.h"
+	"supemon.h"
+
+1761230506 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\exp_lvl.c
+	<stdio.h>
+	<stdlib.h>
+	"exp_lvl.h"
+	"supemon.h"
+	"formule.h"
+
+1761230506 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\formule.c
+	<stdlib.h>
+	<stdio.h>
+	"formule.h"
+
+1761230506 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\items.c
+	<stdio.h>
+	<string.h>
+	"items.h"
+
+1761230506 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"backup.h"
+	"main.h"
+	"player.h"
+	"ooc.h"
+
+1761230506 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\main.h
+	<windows.h>
+	<locale.h>
+
+1761230506 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\ooc.h
+	"player.h"
+
+1761230506 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\ooc.c
+	<stdio.h>
+	"backup.h"
+	"battle.h"
+	"center.h"
+	"items.h"
+	"player.h"
+	"supemon.h"
+	"shop.h"
+
+1761230506 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\center.h
+	"player.h"
+
+1761230506 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\shop.h
+	"items.h"
+	"player.h"
+
+1761230506 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\player.c
+	<stdio.h>
+	<string.h>
+	"player.h"
+
+1761230506 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\shop.c
+	<stdio.h>
+	<string.h>
+	"player.h"
+	"items.h"
+
+1761230506 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\pcdev1_trafarski_kenza_guarin_anthony\pcdev1_trafarski_kenza_guarin_anthony\supemon\supemon\supemon.c
+	<stdio.h>
+	<string.h>
+	"supemon.h"
+

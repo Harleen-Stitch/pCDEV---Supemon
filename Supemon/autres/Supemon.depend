@@ -1,0 +1,207 @@
+# depslib dependency file v1.0
+1760913719 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\kenza\supemon\battle.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<locale.h>
+	<windows.h>
+	"battle.h"
+	"exp_lvl.h"
+	"supemon.h"
+	"player.h"
+	"items.h"
+
+1760908788 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\kenza\supemon\cap.c
+	<string.h>
+	"cap.h"
+
+1760908678 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\kenza\supemon\cap.h
+
+1760912529 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\kenza\supemon\supemon.c
+	<stdio.h>
+	<string.h>
+	"supemon.h"
+
+1760910517 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\kenza\supemon\supemon.h
+	"cap.h"
+
+1760910864 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\kenza\supemon\backup.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"backup.h"
+
+1760914204 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\kenza\supemon\battle.h
+	"player.h"
+	"supemon.h"
+	"exp_lvl.h"
+	"items.h"
+
+1760911032 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\kenza\supemon\player.h
+	"supemon.h"
+	"items.h"
+
+1760910630 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\kenza\supemon\items.h
+
+1760908685 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\kenza\supemon\exp_lvl.h
+	"supemon.h"
+
+1760910270 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\kenza\supemon\center.c
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<unistd.h>
+	"player.h"
+	"supemon.h"
+
+1760908763 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\kenza\supemon\items.c
+	<stdio.h>
+	<string.h>
+	"items.h"
+
+1760913892 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\kenza\supemon\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"backup.h"
+	"main.h"
+	"player.h"
+
+1760908702 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\kenza\supemon\backup.h
+	<stddef.h>
+	"player.h"
+
+1760913806 c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\kenza\supemon\main.h
+	<windows.h>
+	<locale.h>
+
+1760911823 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\kenza\supemon\ooc.c
+	<stdio.h>
+	"backup.h"
+	"battle.h"
+	"items.h"
+	"player.h"
+	"supemon.h"
+
+1760908725 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\kenza\supemon\shop.c
+	<stdio.h>
+	<string.h>
+	"player.h"
+	"items.h"
+
+1760912070 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\kenza\supemon\player.c
+	<stdio.h>
+	<string.h>
+	"player.h"
+
+1760911203 source:c:\users\kenza_supinfo\documents\supinfo\pcdev1\projet final\kenza\supemon\exp_lvl.c
+	<stdio.h>
+	<stdlib.h>
+	"exp_lvl.h"
+	"supemon.h"
+
+1760914960 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\backup.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"backup.h"
+
+1760914960 c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\backup.h
+	<stddef.h>
+	"player.h"
+
+1760914960 c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\player.h
+	"supemon.h"
+	"items.h"
+
+1760914960 c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\supemon.h
+	"cap.h"
+
+1760914960 c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\cap.h
+
+1760914960 c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\items.h
+
+1760914960 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\battle.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<locale.h>
+	<windows.h>
+	"battle.h"
+	"exp_lvl.h"
+	"supemon.h"
+	"player.h"
+	"items.h"
+
+1760914960 c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\battle.h
+	"player.h"
+	"supemon.h"
+	"exp_lvl.h"
+	"items.h"
+
+1760914960 c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\exp_lvl.h
+	"supemon.h"
+
+1760914960 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\cap.c
+	<string.h>
+	"cap.h"
+
+1760914960 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\center.c
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<unistd.h>
+	"player.h"
+	"supemon.h"
+
+1760914960 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\exp_lvl.c
+	<stdio.h>
+	<stdlib.h>
+	"exp_lvl.h"
+	"supemon.h"
+
+1760914960 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\items.c
+	<stdio.h>
+	<string.h>
+	"items.h"
+
+1760914960 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"backup.h"
+	"main.h"
+	"player.h"
+
+1760914960 c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\main.h
+	<windows.h>
+	<locale.h>
+
+1760914960 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\ooc.c
+	<stdio.h>
+	"backup.h"
+	"battle.h"
+	"items.h"
+	"player.h"
+	"supemon.h"
+
+1760914960 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\player.c
+	<stdio.h>
+	<string.h>
+	"player.h"
+
+1760914960 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\shop.c
+	<stdio.h>
+	<string.h>
+	"player.h"
+	"items.h"
+
+1760914960 source:c:\users\anthony\desktop\supinfo\c\sup-ken\supemon_a_corriger\supemon\supemon.c
+	<stdio.h>
+	<string.h>
+	"supemon.h"
+
